@@ -9,10 +9,10 @@ function App() {
 
   const categoryFilter = (category) => {
     const menuCat = data.filter(meal => {
-      if (meal.category == category) {
+      if (meal.category === category) {
         return meal;
       }
-      if (category == 'all') {
+      if (category === 'all') {
         return data;
 
       }
