@@ -12,10 +12,7 @@ function App() {
       if (meal.category === category) {
         return meal;
       }
-      if (category === 'all') {
-        return data;
-
-      }
+      return data;
     })
     setMenus(menuCat)
   }
